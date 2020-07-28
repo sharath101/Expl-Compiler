@@ -1,0 +1,8 @@
+begin
+	read(r);
+	read(h);
+	read(b);
+	i=r+ h*b +2;
+	o=i/2;
+	write(o+r)
+end;
