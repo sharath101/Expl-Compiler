@@ -1,0 +1,9 @@
+begin
+	read(a);
+	b=0;
+	c=0;
+	while(b<=a) do
+		if(a<1) then a=1; endif;
+	endwhile;
+	write(c);
+end;
