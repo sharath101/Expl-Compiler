@@ -1,0 +1,8 @@
+
+begin
+decl
+   int n,r;
+enddecl
+  r=30;
+end;
+
