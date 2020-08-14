@@ -70,7 +70,7 @@ int main()
 {
   extern FILE *yyin, *yyout; 
   yyin = fopen("target.xsm", "r"); 
-  yyout = fopen("/home/sharath/Desktop/xsm/xsm_expl/prog.xsm","w");
+  yyout = fopen("xsm_expl/prog.xsm","w");
   yylex();
   return 1;
 }
